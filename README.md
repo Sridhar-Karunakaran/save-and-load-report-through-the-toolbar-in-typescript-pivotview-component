@@ -1,52 +1,97 @@
-# Save and load report through the toolbar in typescript pivotview component
+# 📊 Save & Load Reports in TypeScript PivotView Component
 
-## Repository Description
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![TypeScript](https://img.shields.io/badge/TypeScript-Latest-3178C6.svg)](https://www.typescriptlang.org/) [![Syncfusion EJ2](https://img.shields.io/badge/Syncfusion%20EJ2-Latest-0078D4.svg)](https://www.syncfusion.com/)
 
-This repository contains a fully functional TypeScript-based implementation of the Syncfusion PivotView component with integrated save and load report functionality. It provides a practical guide for developers looking to enhance their data analysis tools with persistent report management capabilities through a user-friendly toolbar interface.
+> **Production-ready TypeScript implementation demonstrating toolbar-based report persistence in Syncfusion Essential JS 2 PivotView** — save and restore pivot table configurations with seamless JSON export and file import integration.
 
-## Project Overview
+## 🎯 Overview
 
-This is a quick-start project that demonstrates how to save and load reports in the Syncfusion TypeScript PivotView component using the toolbar. The project showcases best practices for managing pivot table configurations, allowing users to persist their analytical views and restore them for future sessions. This implementation is ideal for business intelligence applications, data analysis dashboards, and reporting tools that require flexible report management.
+This repository provides a complete, production-ready implementation for **saving and loading pivot table reports** using Syncfusion's Essential JS 2 PivotView component with full TypeScript support. Perfect for building business intelligence dashboards, financial reporting tools, and analytics applications requiring persistent pivot table configuration management.
 
-## Features
+## ✨ Key Features
 
-- **Save Reports**: Persist PivotView configurations and data layouts to local storage or a backend service
-- **Load Reports**: Retrieve and restore previously saved report configurations with a single click
-- **Toolbar Integration**: User-friendly toolbar buttons for seamless save and load operations
-- **TypeScript Support**: Fully typed codebase ensuring robust development and type safety
-- **Syncfusion PivotView**: Leverages the powerful Syncfusion PivotView component for advanced data visualization
-- **Quick Start Setup**: Pre-configured project structure for rapid development and deployment
+- ✅ **Save Reports**: Export pivot configurations to JSON format through intuitive toolbar buttons
+- ✅ **Load Reports**: Import and restore saved JSON report configurations with single-click operation
+- ✅ **Toolbar Integration**: Seamless report management UI within EJ2 toolbar component
+- ✅ **TypeScript Support**: Fully typed codebase ensuring robust development and type safety
+- ✅ **Syncfusion EJ2**: Leverages robust, feature-rich PivotView with calculated fields and field list
+- ✅ **File Management**: Native file import/export for easy report sharing and backup
+- ✅ **Cross-Browser Compatible**: Works across Chrome, Firefox, Safari, and Edge
 
-## Project Prerequisites
+## 🛠 Prerequisites & Requirements
 
-Ensure you have the following compatible versions installed on your machine:
+- **Node.js**: Version 12.0 or later from [nodejs.org](https://nodejs.org/en/download)
+- **npm**: Included with Node.js for dependency management
+- **Visual Studio Code**: Latest version recommended
+- **TypeScript Knowledge**: Familiarity with ES6+ and TypeScript syntax
+- **Syncfusion License**: Community or commercial license for production use
 
-- **Visual Studio Code**: Latest version from [Visual Studio Code](https://code.visualstudio.com/download)
-- **NodeJS**: Version 12.0 or later from [NodeJS](https://nodejs.org/en/download)
-- **npm**: Comes with NodeJS installation for package management
+## 📦 Installation & Setup
 
-## Installation
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/SyncfusionExamples/save-and-load-report-through-the-toolbar-in-typescript-pivotview-component
+   cd save-and-load-report-through-the-toolbar-in-typescript-pivotview-component
+   ```
 
-To set up this project on your local machine, follow these steps:
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-1. Clone the repository to your desired location
-2. Open the project in Visual Studio Code
-3. Install all required dependencies using npm
+3. **Build & Run**
+   ```bash
+   npm start
+   ```
 
-## How to Run This Application
+4. **Access Application**: Open `http://localhost:8080` in your browser
 
-To run this application, follow these steps:
+## 🚀 Quick Start Usage
 
-1. Clone the [save-and-load-report-through-the-toolbar-in-typescript-pivotview-component](https://github.com/SyncfusionExamples/save-and-load-report-through-the-toolbar-in-typescript-pivotview-component) repository
-2. Open the repository in Visual Studio Code
-3. Install necessary dependencies using `npm install` command
-4. Build and run your project using `npm start` command
-5. View the output in your default web browser
+Once the application is running:
 
-## Usage
+- **View Data**: Pivot table displays sample datasource with countries, products, and sales
+- **Save Report**: Click toolbar "Save" button to export current pivot configuration as JSON
+- **Load Report**: Use "Open" button to select previously saved JSON file and restore configuration
+- **Modify & Re-save**: Adjust pivot layout, add calculated fields, and save as new report
 
-Once the application is running, you can interact with the PivotView component through the toolbar. Use the save button to persist your current report configuration, and use the load button to retrieve previously saved reports. The component automatically manages the storage and retrieval of report data.
+## 🗂 Project Structure
 
-## License
+```
+├── src/
+│   ├── index.html              # Application template & PivotView markup
+│   ├── app/
+│   │   ├── app.ts              # PivotView initialization & report management
+│   │   └── datasource.ts        # Sample JSON datasource
+│   └── styles/
+│       └── styles.css           # Component styling
+├── package.json                 # Dependencies and scripts
+├── tsconfig.json               # TypeScript configuration
+└── webpack.config.js           # Webpack bundler configuration
+```
 
-This project is provided as part of the Syncfusion Examples collection. Please refer to the license file for additional information regarding usage terms and conditions.
+## 🔧 Core Implementation
+
+The application uses Syncfusion EJ2 PivotView with:
+
+- **Toolbar Integration**: Save and open buttons for report management
+- **Data Binding**: Dynamic datasource with multiple dimensions
+- **Calculated Fields**: Extended analytics capabilities
+- **JSON Persistence**: Report export/import via file system
+
+## 📚 Resources
+
+- [Syncfusion EJ2 PivotView Documentation](https://www.syncfusion.com/javascript-ui-controls/js-pivot-table)
+- [TypeScript Official Guide](https://www.typescriptlang.org/docs/)
+- [Webpack Configuration](https://webpack.js.org/)
+
+## 📄 License
+
+Licensed under the MIT License — see [LICENSE](LICENSE) file for details.
+
+## 🆘 Support
+
+For issues or questions:
+- 📧 Open an issue on GitHub
+- 💬 Visit [Syncfusion support forums](https://www.syncfusion.com/forums)
+- 🌐 Check [Syncfusion documentation](https://www.syncfusion.com/javascript-ui-controls/)
