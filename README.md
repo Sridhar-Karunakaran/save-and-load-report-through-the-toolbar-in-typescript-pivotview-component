@@ -87,7 +87,7 @@ The application uses Syncfusion EJ2 PivotView with:
 
 ## 📄 License
 
-Licensed under the MIT License — see [LICENSE](LICENSE) file for details.
+This project is licensed under the **Syncfusion Community License**. See [Syncfusion License](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf) for details.
 
 ## 🆘 Support
 
